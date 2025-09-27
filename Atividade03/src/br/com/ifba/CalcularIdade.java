@@ -134,7 +134,7 @@ public class CalcularIdade extends javax.swing.JFrame {
             }
             
             // Exibe a idade calculada
-            lblIdade.setText(String.valueOf(idade));
+            lblIdade.setText(String.valueOf(idade + " anos."));
             
         } catch (Exception e) {
             // Trata possíveis exceções
